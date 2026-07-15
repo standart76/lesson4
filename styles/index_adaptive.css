@@ -1,0 +1,164 @@
+@media (max-width: 1760px) {
+    .main-title {
+        font-size: 150px;
+        left: -7px;
+    }
+
+    .main-info {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-info {
+        max-width: 540px;
+    }
+
+    .main {
+        padding: 111px 20px 20px;
+    }
+
+    .main-title {
+        font-size: 120px;
+        left: -4px;
+    }
+
+    .main-title-ghost {
+        font-size: 220px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-title {
+        margin-top: 30px;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    .main-image {
+        max-width: 350px;
+        position: absolute;
+        left: 370px;
+        top: 370px;
+    }
+
+    .main-info {
+        max-width: 100%;
+    }
+
+    .main-actions {
+        gap: 10px;
+    }
+
+    .main-actions .button {
+        height: 50px;
+        font-size: 14px;
+        width: auto;
+        max-width: 300px;
+    }
+
+    .main-description {
+        max-width: 350px;
+    }
+
+    .site-footer {
+        padding: 2rem 1rem 1.2rem;
+    }
+
+    .footer-brand .brand-name {
+        font-size: 1.9rem;
+    }
+
+    .footer-brand .tagline {
+        font-size: 0.95rem;
+        max-width: 90%;
+    }
+
+    .social-links a {
+        width: 44px;
+        height: 44px;
+        font-size: 1.2rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.4rem;
+    }
+
+    .footer-bottom .legal-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.6rem 1.2rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .main-title {
+        font-size: 88px;
+    }
+
+    .main-description {
+        max-width: 100%
+    }
+
+    .main-actions {
+        width: 100%;
+    }
+
+    .main-actions .button {
+        width: 100%;
+        max-width: 100%
+    }
+
+    .main-image {
+        max-width: 650px;
+        position: absolute;
+        left: 170px;
+        top: 70px;
+        opacity: 0.2;
+    }
+
+    .site-footer {
+        padding: 1.8rem 0.8rem 1rem;
+    }
+
+    .footer-brand .brand-name {
+        font-size: 1.6rem;
+    }
+
+    .footer-brand .brand-name i {
+        font-size: 1.5rem;
+    }
+
+    .footer-brand .tagline {
+        font-size: 0.85rem;
+        max-width: 100%;
+    }
+
+    .social-links {
+        gap: 0.8rem;
+    }
+
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .footer-bottom {
+        font-size: 0.75rem;
+    }
+
+    .footer-bottom .legal-links {
+        gap: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-title {
+        font-size: 70px;
+    }
+}
